@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OzekiSmsClient">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/2009_08_13_java_tcp_example/OzekiSmsClient.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

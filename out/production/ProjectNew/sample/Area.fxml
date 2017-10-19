@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: SILVER;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="201.0" layoutY="55.0" prefHeight="36.0" prefWidth="198.0" text="Preferrable Areas">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="235.0" layoutY="108.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Gabtoli" />
+      <CheckBox layoutX="235.0" layoutY="140.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Uttara" />
+      <CheckBox layoutX="235.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Mohakhali" />
+      <CheckBox layoutX="235.0" layoutY="209.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="138.0" text="Dhaka Medical Area" />
+      <CheckBox layoutX="235.0" layoutY="246.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Shyamoli" />
+      <Button fx:id="Submit" layoutX="421.0" layoutY="300.0" mnemonicParsing="false" onAction="#LOGGING" text="Submit" />
+      <Button fx:id="Prev1" layoutX="87.0" layoutY="300.0" mnemonicParsing="false" onAction="#LOGGING" text="&lt;&lt;Previous Page" />
+   </children>
+</Pane>

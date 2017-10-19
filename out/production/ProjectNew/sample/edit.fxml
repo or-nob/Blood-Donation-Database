@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EditController">
+    <children>
+        <Label layoutX="94.0" layoutY="70.0" text="Name">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="94.0" layoutY="118.0" text="E-mail">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="94.0" layoutY="163.0" text="Password">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="93.0" layoutY="264.0" text="Blood Group">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="IDName" layoutX="211.0" layoutY="70.0" />
+        <TextField fx:id="IDEmail" layoutX="211.0" layoutY="118.0" />
+        <PasswordField fx:id="IDPassword" layoutX="211.0" layoutY="163.0" />
+        <CheckBox fx:id="Oneg" layoutX="210.0" layoutY="268.0" mnemonicParsing="false" onAction="#bgChange" prefHeight="21.0" prefWidth="51.0" text="O-" />
+        <CheckBox fx:id="Opos" layoutX="259.0" layoutY="268.0" mnemonicParsing="false" onAction="#bgChange" prefHeight="21.0" prefWidth="83.0" text="O+" />
+        <CheckBox fx:id="Aneg" layoutX="305.0" layoutY="268.0" mnemonicParsing="false" onAction="#bgChange" prefHeight="17.0" prefWidth="44.0" text="A-" />
+        <CheckBox fx:id="Apos" layoutX="348.0" layoutY="268.0" mnemonicParsing="false" onAction="#bgChange" prefHeight="21.0" prefWidth="51.0" text="A+" />
+        <CheckBox fx:id="Bneg" layoutX="399.0" layoutY="268.0" mnemonicParsing="false" onAction="#bgChange" prefHeight="21.0" prefWidth="44.0" text="B-" />
+        <CheckBox fx:id="Bpos" layoutX="447.0" layoutY="268.0" mnemonicParsing="false" onAction="#bgChange" prefHeight="21.0" prefWidth="51.0" text="B+" />
+        <CheckBox fx:id="ABneg" layoutX="505.0" layoutY="268.0" mnemonicParsing="false" onAction="#bgChange" prefHeight="21.0" prefWidth="58.0" text="AB-" />
+        <CheckBox fx:id="ABpos" layoutX="569.0" layoutY="268.0" mnemonicParsing="false" onAction="#bgChange" prefHeight="21.0" prefWidth="58.0" text="AB+" />
+        <Button fx:id="edit" layoutX="563.0" layoutY="327.0" mnemonicParsing="false" onAction="#onEdit" text="Edit" />
+        <Label layoutX="94.0" layoutY="211.0" text="Phone Number">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="IDPhone" layoutX="211.0" layoutY="211.0" />
+      <Label layoutX="92.0" layoutY="299.0" prefHeight="25.0" prefWidth="90.0" text="Last Donated">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Date" layoutX="211.0" layoutY="299.0" prefHeight="25.0" prefWidth="119.0" />
+
+    </children>
+</AnchorPane>

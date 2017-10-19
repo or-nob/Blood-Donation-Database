@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="653.0" style="-fx-background-color: SILVER;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="94.0" layoutY="70.0" text="Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="118.0" text="E-mail">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="163.0" text="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="264.0" text="Blood Group">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="307.0" text="Last Donated">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="day" layoutX="211.0" layoutY="307.0" onAction="#LOGGING" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="month" layoutX="276.0" layoutY="307.0" onAction="#LOGGING" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="year" layoutX="341.0" layoutY="307.0" onAction="#LOGGING" prefHeight="25.0" prefWidth="58.0" />
+      <Label layoutX="261.0" layoutY="304.0" prefHeight="31.0" prefWidth="0.0" text="/">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="327.0" layoutY="304.0" prefHeight="31.0" prefWidth="0.0" text="/">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="IDName" layoutX="211.0" layoutY="70.0" onAction="#LOGGING" />
+      <TextField fx:id="IDEmail" layoutX="211.0" layoutY="118.0" onAction="#LOGGING" />
+      <PasswordField fx:id="IDPassword" layoutX="211.0" layoutY="163.0" onAction="#LOGGING" />
+      <CheckBox fx:id="Oneg" layoutX="210.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="51.0" text="O-" />
+      <CheckBox fx:id="Opos" layoutX="259.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="83.0" text="O+" />
+      <CheckBox fx:id="Aneg" layoutX="305.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="17.0" prefWidth="44.0" text="A-" />
+      <CheckBox fx:id="Apos" layoutX="348.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="51.0" text="A+" />
+      <CheckBox fx:id="Bneg" layoutX="399.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="44.0" text="B-" />
+      <CheckBox fx:id="Bpos" layoutX="447.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="51.0" text="B+" />
+      <CheckBox fx:id="ABneg" layoutX="505.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="58.0" text="AB-" />
+      <CheckBox fx:id="ABpos" layoutX="569.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="58.0" text="AB+" />
+      <Button fx:id="Next" layoutX="463.0" layoutY="348.0" mnemonicParsing="false" onAction="#LOGGING" text="Next&gt;&gt;" />
+      <Label layoutX="94.0" layoutY="211.0" text="Phone Number">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="IDPhone" layoutX="211.0" layoutY="211.0" onAction="#LOGGING" />
+
+   </children>
+</Pane>

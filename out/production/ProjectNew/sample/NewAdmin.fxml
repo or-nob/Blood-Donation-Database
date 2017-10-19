@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="653.0" style="-fx-background-color: SILVER;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="94.0" layoutY="70.0" text="Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="118.0" text="E-mail">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="163.0" text="Password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="264.0" text="Blood Group">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="IDName1" layoutX="211.0" layoutY="70.0" onAction="#LOGGING" />
+      <TextField fx:id="IDEmail1" layoutX="211.0" layoutY="118.0" onAction="#LOGGING" />
+      <PasswordField fx:id="IDPassword1" layoutX="211.0" layoutY="163.0" onAction="#LOGGING" />
+      <CheckBox fx:id="Oneg1" layoutX="210.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="51.0" text="O-" />
+      <CheckBox fx:id="Opos1" layoutX="259.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="83.0" text="O+" />
+      <CheckBox fx:id="Aneg1" layoutX="305.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="17.0" prefWidth="44.0" text="A-" />
+      <CheckBox fx:id="Apos1" layoutX="348.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="51.0" text="A+" />
+      <CheckBox fx:id="Bneg1" layoutX="399.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="44.0" text="B-" />
+      <CheckBox fx:id="Bpos1" layoutX="447.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="51.0" text="B+" />
+      <CheckBox fx:id="ABneg1" layoutX="505.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="58.0" text="AB-" />
+      <CheckBox fx:id="ABpos1" layoutX="569.0" layoutY="268.0" mnemonicParsing="false" onAction="#LOGGING" prefHeight="21.0" prefWidth="58.0" text="AB+" />
+      <Button fx:id="Submit1" layoutX="392.0" layoutY="337.0" mnemonicParsing="false" onAction="#LOGGING" text="Submit" />
+      <Label layoutX="94.0" layoutY="211.0" text="Phone Number">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="IDPhone1" layoutX="211.0" layoutY="211.0" onAction="#LOGGING" />
+
+   </children>
+</Pane>

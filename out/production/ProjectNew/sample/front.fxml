@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="188.0" layoutY="134.0" prefHeight="17.0" prefWidth="285.0" text="Log in as a admin or donor?">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="admin" layoutX="201.0" layoutY="211.0" mnemonicParsing="false" onAction="#LOGGING" text="Admin" />
+      <Button fx:id="donor" layoutX="367.0" layoutY="211.0" mnemonicParsing="false" onAction="#LOGGING" text="Donor" />
+   </children>
+</Pane>
